@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicios css Propiedades de los Textos</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="WALTER-AQUINO">
+    <style>
+        p + p {
+            color: green;
+        }
+
+        .text-indent {
+            text-indent: 30px;
+        }
+
+        .text-align {
+            text-align: right;
+        }
+
+        .text-decoration {
+            text-decoration: underline;
+        }
+
+        .letter-spacing {
+            letter-spacing: 3px;
+        }
+
+        .word-spacing {
+            word-spacing: 10px;
+        }
+
+        .text-transform {
+            text-transform: uppercase;
+        }
+
+        .line-height {
+            line-height: 70px;
+        }
+
+        td {
+            height: 100px;
+            border: 1px solid grey;
+        }
+
+        td.a {
+            vertical-align: top;
+        }
+
+        td.b {
+            vertical-align: middle;
+        }
+
+        td.c {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Propiedades de los Textos CSS</h1>
+    <p>
+        Las propiedades de texto en CSS permiten controlar el aspecto y el dise;o 
+        del texto en una pagina web. A continuación, se describen algunas de estas
+        propiedades
+    </p>
+
+    <h2>Text-Indent</h2>
+    <p>
+        La propiedad <em>text-indent</em> se utiliza para establecer el 
+        desplazamiento de la primera linea de un parrafo. Puede definirse en 
+        longitud (por ejemplo, "20pc") o porcentaje (por ejemplo, "10%").
+    </p>
+
+    <p class="tex-tindent">
+        Este es un ejemplo de texto con desplazamiento de la primera linea
+        utilizando la propiedad <em>text-indent</em>. La primera linea esta
+        desplazada 30px.
+    </p>
+    
+    <h2>Text-Align</h2>
+    <p>
+        La propiedad <em>text-align</em> se utiliza para alinear el texto en una
+        caja. Los valores comunes son "left", "right", "center" y "justify".
+    </p>
+
+    <p class="text-align">
+        Este es un ejemplo de texto alineado a la derecha utilizando la propiedad
+        <em>text-align</em>.
+    </p>
+
+    <h2>Text-Decoration</h2>
+    <p>
+        La propiedad <em>text-decoration</em> se utiliza para aplicar efectos de
+        subrayado y tachado al texto. Los valores incluyen "none", "underline",
+        "overline" y "line-trough".
+    </p>
+
+    <p class="text-decoration">
+        Este es un ejemplo de texto con subrayado utilizando la propiedad
+        <em>text-decoration</em>.
+    </p>
+
+    <h2>Letter-Spacing</h2>
+    <p>
+        La propiedad <em>letter-spacing</em> controla el espacio entre caracteres.
+        puede definirse como "normal" o en una longitud especifica.
+    </p>
+
+    <p class="letter-spacing">
+        Este es un ejemplo de texto con espacio entre caracteres utilizando la 
+        propiedad <em>letter-spacing</em>. Los caracteres estan separados por 3px.
+    </p>
+
+    <h2>Word-Spacing</h2>
+    <p>
+        La propiedad <em>word-spacing</em> controla el espacio entre palabras.
+        Puede definirse como "normal" o en una longitud especifica.
+    </p>
+
+    <p class="word-spacing">
+        Este es un ejemplo de texto con espacio entre caracteres utilizando la 
+        propiedad <em>word-spacing</em>. Las palabras estan separadas por 10px.
+    </p>
+
+    <h2>Text-Transform</h2>
+    <p>
+        La propiedad <em>text-transform</em> transforma el texto a mayusculas o 
+        minusculas. Los valores comunes son "capitalize", "uppercase", "lowercase"
+        y "none". 
+    </p>
+
+    <p class="text-transform">
+        Este es un ejemplo de texto en mayusculas utilizando la propiedad
+        <em>text-transform</em>.
+    </p>
+
+    <h2>Line-Height</h2>
+    <p>
+        La propiedad <em>line-height</em> establece el tamaño del espacio entre
+        lineas. Puede definirse en longitud o porcentaje.
+    </p>
+
+    <p class="line-height">
+        Este es un ejemplo de texto con un espacio entre lineas mayor utilizando
+        la propuedad <em>line-height</em>. El espacio entre lineas es de 70px.
+    </p>
+
+    <h2>Vertical-Align</h2>
+    <p>
+        La propiedad <em>vertical-align</em> se utiliza para alinear verticalmente
+        elementos en linea. Puede alinearse en la parte superior, en el centro o 
+        en la parte inferior, o utilizar otros valores como "baseline", "sub" o 
+        "super".
+    </p>
+
+    <p class="vertical-align">
+        Este es un ejemplo de texto con alineacion vertical con una tabla usando 
+        <em>vertical-align</em>.
+    </p>
+
+    <table>
+        <tr>
+            <td class="a">vertical-align: top</td>
+            <td class="b">vertical-align: middle</td>
+            <td class="c">vertical-align: bottom</td>            
+        </tr>
+    </table>
+</body>
+</html>
